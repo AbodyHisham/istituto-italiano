@@ -15,7 +15,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url("https://c4.wallpaperflare.com/wallpaper/523/543/740/symbols-archeology-egypt-writing-wallpaper-preview.jpg") no-repeat center center/cover;
+    background: url("media/contactusformwallpaper.jpg") no-repeat center center/cover;
 }
 
 .container form {
@@ -107,8 +107,21 @@ textarea::-webkit-scrollbar-thumb {
     margin-right: 500px;
     margin-bottom: 30px;
     transition: 0.3s;
+    cursor: pointer;
+    
 }
 
 .container form #button:hover{
     opacity: 0.7;
-}
+} 
+
+
+
+
+
+
+
+
+
+
+
