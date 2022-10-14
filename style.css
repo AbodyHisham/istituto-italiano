@@ -88,3 +88,18 @@ select {
  background-size: cover;
  background-position: center;
 }
+
+.navbar {
+ width: 85%;
+ margin: auto;
+ padding: 35px 0;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+}
+
+.logo {
+ width: 120px;
+ cursor: pointer;
+
+}
