@@ -14,6 +14,7 @@ var imageswiper = new Swiper(".images-slider", {
 var infoswiper = new Swiper(".info-slider", {
   direction: "vertical",
   effect: "slide",
+  spaceBetween: 30,
   pagination: {
     el: ".swiper-pagination-info",
     dynamicBullets: true,
