@@ -1,4 +1,4 @@
-/* CSS Resetter dont remove it it's important*/
+/* CSS Resetter dont remove, it's important*/
 
 /* Box sizing rules */
 *,
@@ -81,10 +81,10 @@ select {
 /* CSS Resetter dont remove it it's important*/
 
 
-.banner {
+body {
  width: 100%;
  height: 100vh;
- background-image: linear-gradient(rgba(0, 0, 0, 0.671), rgba(0, 0, 0, 0.671)), url(images/back.jpg);
+ background-image: linear-gradient(rgba(0, 0, 0, 0.671), rgba(0, 0, 0, 0.671)), url(images/grey.jpg);
  background-size: cover;
  background-position: center;
 }
