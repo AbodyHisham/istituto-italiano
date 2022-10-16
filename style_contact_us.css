@@ -102,7 +102,7 @@ textarea::-webkit-scrollbar-thumb {
   margin-top: 20px;
   font-weight: 600;
   font-size: 20px;
-  color: #333;
+  color: rgb(255, 255, 255);
   width: 100px;
   padding: 0;
   margin-right: 500px;
