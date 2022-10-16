@@ -4,9 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Baloo 2", cursive;
-  font-family: "Delius Unicase", cursive;
-  font-family: "Ubuntu", sans-serif;
+  font-family: "Jost", sans-serif;
 }
 
 .container {

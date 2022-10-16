@@ -11,6 +11,7 @@ body {
   height: 100vh;
   background-image: url(media/contactusformwallpaper.jpg);
   backdrop-filter: blur(10px);
+  font-family: "Jost", sans-serif;
 }
 
 #navbar {
