@@ -4,7 +4,7 @@
 *,
 *::before,
 *::after {
- box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 /* Remove default margin */
@@ -18,37 +18,37 @@ figure,
 blockquote,
 dl,
 dd {
- margin: 0;
+  margin: 0;
 }
 
 /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
-ul[role='list'],
-ol[role='list'] {
- list-style: none;
+ul[role="list"],
+ol[role="list"] {
+  list-style: none;
 }
 
 /* Set core root defaults */
 html:focus-within {
- scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 /* Set core body defaults */
 body {
- min-height: 100vh;
- text-rendering: optimizeSpeed;
- line-height: 1.5;
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
 }
 
 /* A elements that don't have a class get default styles */
 a:not([class]) {
- text-decoration-skip-ink: auto;
+  text-decoration-skip-ink: auto;
 }
 
 /* Make images easier to work with */
 img,
 picture {
- max-width: 100%;
- display: block;
+  max-width: 100%;
+  display: block;
 }
 
 /* Inherit fonts for inputs and buttons */
@@ -56,36 +56,117 @@ input,
 button,
 textarea,
 select {
- font: inherit;
+  font: inherit;
 }
 
 /* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
 @media (prefers-reduced-motion: reduce) {
- html:focus-within {
-  scroll-behavior: smooth;
- }
+  html:focus-within {
+    scroll-behavior: smooth;
+  }
 
- *,
- *::before,
- *::after {
-  animation-duration: 0.01ms !important;
-  animation-iteration-count: 1 !important;
-  transition-duration: 0.01ms !important;
-  scroll-behavior: smooth !important;
- }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: smooth !important;
+  }
 }
-:root{
- --clr-light: #fff;
- --clr-dark: #303030;
+:root {
+  --clr-light: #fff;
+  --clr-dark: #303030;
 }
 /* CSS Resetter dont remove it it's important*/
 
-
 .banner {
- width: 100%;
- height: 100vh;
- background-image: linear-gradient(rgba(0, 0, 0, 0.671), rgba(0, 0, 0, 0.671)), url(images/back.jpg);
- background-size: cover;
- background-position: center;
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.671), rgba(0, 0, 0, 0.671)),
+    url(images/back.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.header {
+  padding: 0;
+  margin: 0;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-logo {
+}
+
+.section_home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+}
+
+.section_info {
+  justify-content: space-between;
+  justify-items: center;
+  align-items: center;
+  min-height: 1000px;
+}
+
+.image-slider {
+  width: 800px;
+  height: 500px;
+}
+
+#slide_image{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.image {
+  max-width: fit-content;
+  max-height: 100%;
+}
+
+.swiper-pagination-bullet {
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 12px;
+  color: #000;
+  opacity: 1;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.swiper-pagination-bullet-active {
+  color: #fff;
+  background: #007aff;
+}
+
+.info-slider {
+  width: 1200px;
+  height: 700px;
+  display: grid;
+  justify-content: space-between;
+  align-items: center;
+  background-color: red;
+  border-radius: 50px;
+}
+
+.slide_info {
+  align-items: center;
+  padding: 20px;
+  background-color: white;
+  border-radius: 50px;
 }
 
