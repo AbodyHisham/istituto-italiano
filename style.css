@@ -1,4 +1,4 @@
-/* CSS Resetter dont remove it it's important*/
+/* CSS Resetter dont remove, it's important*/
 
 /* Box sizing rules */
 *,
@@ -122,7 +122,7 @@ select {
   height: 500px;
 }
 
-#slide_image{
+#slide_image {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -169,4 +169,11 @@ select {
   background-color: white;
   border-radius: 50px;
 }
-
+body {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.671), rgba(0, 0, 0, 0.671)),
+    url(images/grey.jpg);
+  background-size: cover;
+  background-position: center;
+}
