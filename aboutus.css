@@ -72,6 +72,8 @@ section {
     height:45%;
     display: block;
     border-radius: 50%;
+    border: 2px white solid;
+    box-shadow: 5px 10px 50px rgb(0, 0, 0);
 }
 
 .profile h6 {
