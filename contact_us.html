@@ -48,15 +48,17 @@
         </div>
     </header>
     <div class="container">
-        <form>
+        <form action="https://formsubmit.co/mmatthewabdallah@email.com" method="POST">
             <h1>We'd love to hear from you</h1>
-            <input type="text" id="firstname" placeholder="First Name" required>
+            <input type="text" name="Name" id="firstname" placeholder="First Name" required>
             <input type="text" id="lastname" placeholder="Last Name" required>
-            <input type="email" id="email" placeholder="Email" required>
-            <input type="text" id="mobile" placeholder="Mobile" required>
+            <input type="email" name="Email" id="email" placeholder="Email" required>
+            <input type="text" name="mobile" id="mobile" placeholder="Mobile" required>
             <h4>Type Your message ...</h4>
             <textarea required></textarea>
             <input type="submit" value="Send" id="button">
+            <textarea name="message"required></textarea>
+            <input type="submit" value="send" id="button">
         </form>
     </div>
 </body>

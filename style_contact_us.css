@@ -17,6 +17,13 @@
   align-items: center;
   background: url("https://c4.wallpaperflare.com/wallpaper/523/543/740/symbols-archeology-egypt-writing-wallpaper-preview.jpg")
     no-repeat center center/cover;
+  min-height: 100vh;
+  background-color: #08071d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("media/contactusformwallpaper.jpg") no-repeat center
+    center/cover;
 }
 
 .container form {
@@ -449,4 +456,24 @@ textarea::-webkit-scrollbar-thumb {
   color: rgb(28, 121, 184);
   -webkit-transition: color 0.3s ease;
   transition: color 0.3s ease;
+}
+
+.container form #button {
+  border: none;
+  background: #fff;
+  border-radius: 5px;
+  margin-top: 20px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #333;
+  width: 100px;
+  padding: 0;
+  margin-right: 500px;
+  margin-bottom: 30px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.container form #button:hover {
+  opacity: 0.7;
 }
