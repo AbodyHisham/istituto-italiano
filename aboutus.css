@@ -315,7 +315,7 @@ body {
                        Responsive Mobile Menu 
       ======================================================*/
 .overlay-menu {
-  background: lightblue;
+  background: white;
   color: rgb(13, 26, 38);
   display: flex;
   align-items: center;
