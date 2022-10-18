@@ -11,44 +11,25 @@
 </head>
 
 <body>
-    <header>
-        <nav id="navbar" class="">
-            <div class="nav-wrapper">
-                <!-- Navbar Logo -->
-                <div class="logo">
-                    <!-- Logo Placeholder for Inlustration -->
-                    <a href="index.html"> <img class="images-logo" src="/images/logo_iic.svg"></a>
-                </div>
 
-                <!-- Navbar Links -->
-                <ul id="menu">
-                    <li><a href="index.html">Home</a></li>
-
-                    <li><a href="aboutus.html">About</a></li>
-
-                    <li><a href="contact_us.html">Contact</a></li>
-                </ul>
-            </div>
-        </nav>
+    <div class="logo">
+        <a href="index.html">
+            <img src="images/logo_iic.svg">
+        </a>
+    </div>
 
 
-        <!-- Menu Icon -->
-        <div class="menuIcon">
-            <span class="icon icon-bars"></span>
-            <span class="icon icon-bars overlay"></span>
-        </div>
+    <input type="checkbox" id="active">
+    <label for="active" class="menu-btn"><span></span></label>
+    <label for="active" class="close"></label>
+    <div class="wrapper">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="aboutus.html">About</a></li>
+            <li><a href="contact_us.html">Contact</a></li>
+        </ul>
+    </div>
 
-
-        <div class="overlay-menu">
-            <ul id="menu">
-                <li><a href="index.html">Home</a></li>
-
-                <li><a href="aboutus.html">About</a></li>
-
-                <li><a href="contact_us.html">Contact</a></li>
-            </ul>
-        </div>
-    </header>
     <div class="container">
         <form action="https://formsubmit.co/" method="POST">
             <h1>We'd love to hear from you</h1>
@@ -62,7 +43,6 @@
         </form>
     </div>
 
-    <script src="/app/javascriptcontactus.js"></script>
 </body>
 
 </html>
