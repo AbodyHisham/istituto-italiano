@@ -346,3 +346,13 @@ iframe {
   height: 21.5em;
   border-radius: 2em;
 }
+@media (max-width: 480px) {
+.title {
+  color: white;
+  align-items: center;
+  font-size: 35px;
+  width: 340px;
+  text-align: center;
+  margin-left: 4em;
+}
+}
