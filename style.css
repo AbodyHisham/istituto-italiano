@@ -262,7 +262,11 @@ input[type="checkbox"] {
 
 .section_home {
   width: 100%;
-  height: max-content;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 5em;
 }
 
 .home-title {
@@ -326,13 +330,11 @@ input[type="checkbox"] {
   background-color: transparent;
   backdrop-filter: blur(15px);
   border-radius: 1em;
-  
 }
 
 audio {
   width: 50em;
 }
-
 p {
   padding-bottom: 2em;
   font-size: 1.3em;
@@ -345,4 +347,91 @@ iframe {
   width: 50em;
   height: 21.5em;
   border-radius: 2em;
+}
+@media (max-width: 480px) {
+.title {
+  color: white;
+  align-items: center;
+  font-size: 28px;
+  width: 20em;
+  text-align: center;
+  margin-left: 1em;
+  padding: 2em;
+}
+.section_home {
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 2em;
+}
+.section_info {
+  top: 0;
+  width: 100%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0em;
+}
+.images-slider {
+  width: 34em;
+  height: 25em;
+  margin-left: 1em;
+}
+.info-slider {
+  width: 41em;
+  height: 60em;
+  display: grid;
+  border-radius: 50px;
+  color: white;
+  margin-right: 8em;
+}
+.slide_info {
+  padding: 3em;
+  background-color: transparent;
+  backdrop-filter: blur(15px);
+  border-radius: 1em;
+}
+p {
+  padding-bottom: 2em;
+  font-size: 19px;
+  width: 100%;
+  text-align: justify;
+}
+iframe {
+  width: 35em;
+  height: 16.5em;
+  border-radius: 2em;
+}
+audio {
+  width: 35em;
+}
+.text-title {
+  padding: 1em;
+  width: 100%;
+  text-align: justify;
+}
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  font-family: "Jost", sans-serif;
+  width: 165%;
+}
+.menu-btn {
+  position: fixed;
+  z-index: 3;
+  right: 20px;
+  left: 77%;
+  top: 20px;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 50%;
+  font-size: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
 }

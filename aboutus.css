@@ -277,3 +277,105 @@ input[type="checkbox"] {
   padding: 1em;
   width: 11em;
 }
+@media (max-width: 1200px) {
+  .profile h6 {
+    font-size: 23px;
+    font-weight: 500;
+    margin: 9px 9px 9px 19px;
+    width: 250px;
+    text-align: center;
+}
+.button a {
+  font-size: 25px;
+}
+.developers h4 {
+  height: 15%;
+  width: 100%;
+  font-size: 35px;
+  text-align: center;
+  padding-bottom: 2em;
+  color: aliceblue;
+}
+.profile {
+  color: aliceblue;
+  width: 20%;
+  height: 98%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.profile p {
+  color: darkgoldenrod;
+  font-size: 20px;
+}
+.profile img {
+  width: 50%;
+  height: 45%;
+  display: block;
+  border-radius: 50%;
+  border: 2px white solid;
+  box-shadow: 5px 10px 50px rgb(0 0 0);
+}
+img, picture {
+  max-width: 130%;
+  display: block;
+}
+.social-icons a {
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+}
+}
+@media (max-width: 480px) {
+  .profiles_container {
+    width: 100%;
+    height: 480%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .developers h4 {
+    height: 3%;
+    width: 100%;
+    font-size: 21px;
+    text-align: center;
+    padding-bottom: 3em;
+    color: aliceblue;
+}
+.button a {
+  font-size: 14px;
+}
+img, picture {
+    max-width: 65%;
+    display: block;
+}
+.profile {
+  color: aliceblue;
+  width: 45%;
+  height: 98%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+.profile h6 {
+  font-size: 22px;
+  font-weight: 500;
+  width: 260px;
+  text-align: center;
+}
+.profile img {
+  width: 50%;
+  height: 50%;
+  display: block;
+  border-radius: 50%;
+  border: 2px white solid;
+  box-shadow: 5px 10px 50px rgb(0 0 0);
+}
+.profile p {
+  color: darkgoldenrod;
+  font-size: 20px;
+}
+}
