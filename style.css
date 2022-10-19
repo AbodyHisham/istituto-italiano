@@ -395,13 +395,13 @@ iframe {
 }
 p {
   padding-bottom: 2em;
-  font-size: 1.3em;
+  font-size: 19px;
   width: 100%;
   text-align: justify;
 }
 iframe {
   width: 35em;
-  height: 21.5em;
+  height: 16.5em;
   border-radius: 2em;
 }
 audio {
